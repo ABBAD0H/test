@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(11,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(22,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(23,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(24,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(31,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(32,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(33,22): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(34,22): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(41,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(42,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(43,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(44,29): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(52,23): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(73,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(77,32): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\ConsoleApplication1\main.cpp(79,26): warning C4305: аргумент: усечение из "double" в "float"
+  ConsoleApplication1.vcxproj -> C:\Users\WARRIOR\Desktop\zhamkova\c++\console\ConsoleApplication2\Debug\ConsoleApplication1.exe
