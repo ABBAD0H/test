@@ -10,7 +10,7 @@ using namespace std;
 void main()
 {
 	srand(time(NULL));
-	vector<circle*> box;			//Генерация фигур
+	vector<circle*> box;			//Generating shapes
 	for (int i = 0; i < 10; i++)
 	{
 		unsigned short choise = rand() % 3 + 1;
@@ -48,11 +48,11 @@ void main()
 		}
 	}
 
-	for (auto it = box.begin(); it != box.end(); it++)		//вывод векторов и точек при t=pi/4
+	for (auto it = box.begin(); it != box.end(); it++)		//output of vectors and points at t=pi/4
 		(*it)->send((pi / 4));
 
 
-	vector<circle*> circle_box;								//Фильтрация по кругам
+	vector<circle*> circle_box;								//Filtering circles
 	for (auto it = box.begin(); it != box.end(); it++) 
 	{
 		if (typeid(**it) == typeid(circle)) 
@@ -61,14 +61,14 @@ void main()
 		}
 	}
 	
-	sort(circle_box.begin(), circle_box.end(), [](const circle* p1, const circle* p2) //сортировка по радиусам
+	sort(circle_box.begin(), circle_box.end(), [](const circle* p1, const circle* p2) //sorting by radii
 	{
 		return p1->r < p2->r;
 	});
 
 
 
-	float radius_sum = 0;									//Подсчет суммы радиусов
+	float radius_sum = 0;									//Calculating the sum of radii
 	#pragma omp parallel for reduction(+:radius_sum)
 	for (int i = 0; i < circle_box.size(); i++)
 	{
