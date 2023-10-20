@@ -2,7 +2,7 @@
 #include <math.h>
 #include <iostream>
 
-using namespace std;
+
 circle::circle(float x, float y, float r)
 {
 	this->x = x;
@@ -33,9 +33,9 @@ space_point circle::vecctor(float t)
 void circle::send(float t)
 {
 	space_point answer = this->point(t);
-	cout << "circle\npoint: x = " <<answer.x <<"\ty = "<<answer.y << "\tz= " << answer.z<<endl;
+	std::cout << "circle\npoint: x = " <<answer.x <<"\ty = "<<answer.y << "\tz= " << answer.z<< std::endl;
 	answer = this->vecctor(t);
-	cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << endl << endl;
+	std::cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << std::endl << std::endl;
 }
 
 
@@ -66,9 +66,9 @@ space_point ellipse::vecctor(float t)
 void ellipse::send(float t)
 {
 	space_point answer = this->point(t);
-	cout << "ellipse\npoint: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << endl;
+	std::cout << "ellipse\npoint: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << std::endl;
 	answer = this->vecctor(t);
-	cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << endl<<endl;
+	std::cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << std::endl<< std::endl;
 }
 
 spring::spring(float x, float y, float r, float step) : circle(x, y, r)
@@ -96,7 +96,7 @@ space_point spring::vecctor(float t)
 void spring::send(float t)
 {
 	space_point answer = this->point(t);
-	cout << "spring\npoint: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << endl;
+	std::cout << "spring\npoint: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << std::endl;
 	answer = this->vecctor(t);
-	cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << endl << endl;
+	std::cout << "vector: x = " << answer.x << "\ty = " << answer.y << "\tz= " << answer.z << std::endl << std::endl;
 }
